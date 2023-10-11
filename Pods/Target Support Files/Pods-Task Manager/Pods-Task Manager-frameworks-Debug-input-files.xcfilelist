@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Task Manager/Pods-Task Manager-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/SSNeumorphicView/SSNeumorphicView.framework
+${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework

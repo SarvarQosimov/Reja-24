@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/sarvarqosimov/Desktop/ios/Task Manager/build/Debug-iphoneos/SSNeumorphicView/SSNeumorphicView.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/sarvarqosimov/Desktop/ios/Task Manager/build/Pods.build/Debug-iphoneos/SSNeumorphicView.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/sarvarqosimov/Desktop/ios/Task Manager/build/Debug-iphoneos/SSNeumorphicView/SSNeumorphicView.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "SSNeumorphicView-Swift.h",
+      'external-contents': "/Users/sarvarqosimov/Desktop/ios/Task Manager/build/Pods.build/Debug-iphoneos/SSNeumorphicView.build/unextended-interface-header.h",
+    }]
+    }]
+}

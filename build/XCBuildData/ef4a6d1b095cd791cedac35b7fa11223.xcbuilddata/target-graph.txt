@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+SSNeumorphicView in Pods, no dependencies
+SideMenu in Pods, no dependencies
+Pods-Task Manager in Pods, depends on:
+SSNeumorphicView in Pods (explicit)
+SideMenu in Pods (explicit)
+Task Manager in Task Manager, depends on:
+Pods-Task Manager in Pods (implicit dependency via file 'Pods_Task_Manager.framework' in build phase 'Link Binary')
+SSNeumorphicView in Pods (implicit dependency via options '-framework SSNeumorphicView' in build setting 'OTHER_LDFLAGS')
+SideMenu in Pods (implicit dependency via options '-framework SideMenu' in build setting 'OTHER_LDFLAGS')

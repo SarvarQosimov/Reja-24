@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "a8e9206cbe25906d04c8f58843ec12e35f349438f958211881d7403cf8c74f5d"
+build_start_time: [1691142566, 775258000]
+build_end_time: [1691142566, 836617000]
+inputs:
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SSNeumorphicView/SSNeumorphicView/Classes/SSNeumorphicButton.swift": !private [1690993101, 488429992]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SSNeumorphicView/SSNeumorphicView/Classes/SSNeumorphicLayer.swift": !private [1690993101, 488019992]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SSNeumorphicView/SSNeumorphicView/Classes/SSNeumorphicTextField.swift": !private [1690993101, 488223846]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SSNeumorphicView/SSNeumorphicView/Classes/SSNeumorphicView.swift": !private [1690993101, 488621926]

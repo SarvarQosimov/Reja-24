@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "9e4c5b3b3701f162fa6b81ae9edff33057438fb60868bd1318090e0901b0b55a"
+build_start_time: [1691142566, 775260000]
+build_end_time: [1691142566, 839059000]
+inputs:
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/Deprecations.swift": !private [1689914736, 340249610]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/Extensions.swift": !private [1689914736, 341181560]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/Initializable.swift": !private [1689914736, 339872031]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/Print.swift": !private [1689914736, 339489951]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/Protected.swift": !private [1689914736, 340604690]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/SideMenuAnimationController.swift": !private [1689914736, 339692949]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/SideMenuInteractionController.swift": !private [1689914736, 340063570]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/SideMenuManager.swift": !private [1689914736, 341007645]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/SideMenuNavigationController.swift": !private [1689914736, 341565890]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/SideMenuPresentationController.swift": !private [1689914736, 340796605]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/SideMenuPresentationStyle.swift": !private [1689914736, 340430109]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/SideMenuPushCoordinator.swift": !private [1689914736, 341365350]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/SideMenuTransitionController.swift": !private [1689914736, 341772513]
+  "/Users/sarvarqosimov/Desktop/ios/Task Manager/Pods/SideMenu/Pod/Classes/UITableViewVibrantCell.swift": !private [1689914736, 341949178]

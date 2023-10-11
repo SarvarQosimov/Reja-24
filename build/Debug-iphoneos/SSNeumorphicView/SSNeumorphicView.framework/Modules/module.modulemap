@@ -1,0 +1,11 @@
+framework module SSNeumorphicView {
+  umbrella header "SSNeumorphicView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SSNeumorphicView.Swift {
+  header "SSNeumorphicView-Swift.h"
+  requires objc
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22A400" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoriesInFolder" representedClassName="CategoriesInFolder" syncable="YES" codeGenerationType="class">
+        <attribute name="indexs" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CategoryDB" representedClassName=".CategoryDB" syncable="YES" codeGenerationType="class">
+        <attribute name="colorCategory" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="isFavourity" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nameCategory" attributeType="String"/>
+    </entity>
+    <entity name="FolderDB" representedClassName="FolderDB" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+    </entity>
+    <entity name="TaskDB" representedClassName="TaskDB" syncable="YES" codeGenerationType="class">
+        <attribute name="dedline" attributeType="String"/>
+        <attribute name="id" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="isDone" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isFlagged" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="priority" attributeType="String"/>
+        <attribute name="task" attributeType="String"/>
+    </entity>
+</model>
