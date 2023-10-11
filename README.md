@@ -12,11 +12,11 @@
 - Written in Swift
 - Used UIKit
 - Designed with MVVM pattern
-- Used "Local Notification" to send notifacation to user when time is came for task
-- User able to use app in 3 language: English, Uzbek and Russian
+- Used "Local Notification" to send notifacations to user when time is came for task
+- Users are able to use the app in 3 languages: English, Uzbek and Russian
 - Available dark mode and light mode
 - "CoreDate" technalogy was used to store user data
-- Our users can search any task from within bunch of assignments and sort by task finished or not
-- And of course greate desine 👨‍💻 to be convenient for our clients
-- - Built in Xcode 15
+- Our users can search any task among bunch of assignments and sort by task finished or not
+- And of course greate design 👨‍💻 to be convenient for our clients
+- Built in Xcode 15
 
