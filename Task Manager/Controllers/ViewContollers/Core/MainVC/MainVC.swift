@@ -21,15 +21,16 @@ class MainVC: UIViewController {
     var folders       = [FolderDB()]
     var tasks         = [TaskDB]()
     let taskViewModel = TasksViewModel()
+    var isViewDidLoad = false
     static var folderChanged: DataChangedDelegate!
     
     //MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         setupIndecator()
-        
         loader.startAnimating()
         DispatchQueue.main.asyncAfter(deadline: .now()+0.5) { [self] in
+            isViewDidLoad = true
             loader.stopAnimating()
             setupViews()
             setupTableView()
@@ -39,8 +40,10 @@ class MainVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.navigationBar.backgroundColor = Constants.mainBackgroundColor
-        navigationController?.navigationBar.tintColor = .systemBlue
+        if isViewDidLoad {
+            navigationController?.navigationBar.backgroundColor = Constants.mainBackgroundColor
+            navigationController?.navigationBar.tintColor = .systemBlue
+        }
     }
     
     //MARK: menuPressed

@@ -11,7 +11,7 @@ import UIKit
 extension SettingsVC {
     func setupViews(){
         view.backgroundColor = Constants.mainBackgroundColor
-        print(view.frame.size.height, "view.frame.size.height")
+        
         let hideMiniViewGesture = UITapGestureRecognizer(target: self, action: #selector(cancelGesture(_:)))
         hideMiniViewGesture.numberOfTapsRequired = 1
         view.isUserInteractionEnabled = true

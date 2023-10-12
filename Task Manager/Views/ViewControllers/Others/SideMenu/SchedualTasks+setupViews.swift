@@ -30,6 +30,20 @@ extension ScheduledTasksVC {
         noTasksLbl.numberOfLines = 0
         
         addConstraints()
+        
+        if UserDefaults.standard.string(forKey: Constants.appLanguage) == "ru" {
+            NSLayoutConstraint.activate([
+                noTasksLbl.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 25),
+                noTasksLbl.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -15),
+                noTasksLbl.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            ])
+        } else {
+            NSLayoutConstraint.activate([
+                noTasksLbl.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                noTasksLbl.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            ])
+        }
+        
     }
 
     private func addSubviews(){
@@ -42,11 +56,7 @@ extension ScheduledTasksVC {
             tableView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 15),
             tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 25),
             tableView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -15),
-            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -15),
-            
-            noTasksLbl.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 25),
-            noTasksLbl.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -15),
-            noTasksLbl.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -15)
         ])
     }
 

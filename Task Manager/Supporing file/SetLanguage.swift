@@ -109,7 +109,7 @@ class SetLanguage {
         case .flaggedTitle:                  return "Belgilangangan vazifalar"
         case .noFlaggedTasksMessage:         return "Sizda belgilangan vazifalar yo`q"
             
-            ///`Flagged
+            ///`ScheduledVC
         case .noScheduledTasksMessanger:     return "Sizda rejalashtirilgan vazifalar yo'q"
             
             ///`Aditional
@@ -213,7 +213,7 @@ class SetLanguage {
         case .flaggedTitle:                  return "С флажком"
         case .noFlaggedTasksMessage:         return "У вас нет никаких задач c флажком"
             
-            ///`Flagged
+            ///`ScheduledVC
         case .noScheduledTasksMessanger:     return "У вас нет запланированных задач"
             
             ///`Aditional
@@ -317,7 +317,7 @@ class SetLanguage {
         case .flaggedTitle:                  return "Flagged"
         case .noFlaggedTasksMessage:         return "You do not have any flagged tasks"
             
-            ///`Flagged
+            ///`ScheduledVC
         case .noScheduledTasksMessanger:      return "You do not have scheduled tasks"
 
             ///`Aditional
